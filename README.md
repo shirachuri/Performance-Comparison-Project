@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 The performance dashboard is available online: 
-**[View Live Dashboard](YOUR_VERCEL_LINK_HERE)**
+**[View Live Dashboard](https://performance-comparison-project.vercel.app)**
 
 ## 📋 Project Overview
 This project compares three different calculation engines (SQL Server, C# .NET, and Node.js) by processing **1,000,000 rows** of data with dynamic mathematical formulas. The results are visualized in a React-based dashboard.
