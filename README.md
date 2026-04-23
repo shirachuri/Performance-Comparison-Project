@@ -37,5 +37,15 @@ A detailed analysis of the results, including technical insights and performance
 * **Node.js:** Navigate to `03_NodeJS_Method`, run `npm install` and then `node app.js`.
 * **Frontend:** Navigate to `05-performance-dashboard`, run `npm install` and then `npm start`.
 
-## 📊 Key Findings
-As detailed in **Final_Report.pdf**, SQL Server provided the fastest execution due to set-based logic, while C# outperformed Node.js in computational efficiency.
+## 📊 Key Findings & Data Integrity
+
+### 1. Data Verification (Accuracy Check)
+To ensure a fair and valid benchmark, it was mandatory that all three engines produce identical mathematical results. 
+* **The Process:** We used the `03_Verification_Scripts.sql` to perform a row-by-row comparison of the results.
+* **The Result:** The verification script returned an **empty set (0 rows)**, confirming 100% data consistency across all 1,000,000 rows. This proves that performance differences are purely architectural and not due to calculation errors.
+
+### 2. Performance Comparison
+As detailed in the **Final_Report.pdf**:
+* **🏆 SQL Server (Winner):** Fastest execution. Minimal overhead as calculations happen directly within the data engine.
+* **🥈 C# .NET:** Strong performance with high memory efficiency using `DataTable.Compute` and optimized batching.
+* **🥉 Node.js:** Flexible but slower for heavy CPU-bound string evaluation compared to the other methods.
