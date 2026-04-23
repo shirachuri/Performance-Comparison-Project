@@ -1,0 +1,27 @@
+# --- .NET / Visual Studio ---
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# User-specific files
+appsettings.json
+appsettings.Development.json
+
+# --- Environment Variables ---
+.env
+*.env.local
+
+# --- OS generated files ---
+.DS_Store
+thumbs.db

@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="FormulaProject.Api/FormulaProject.Api.csproj" Id="14c21ea1-295e-44ba-93bf-6bd2d737f497" />
+  <Project Path="FormulaProject.Calculator/FormulaProject.Calculator.csproj" />
+</Solution>
